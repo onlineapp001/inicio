@@ -1,0 +1,26 @@
+*{
+    padding: 0;margin: 0;
+}
+#xbdy{
+    background-image:url(1x.svg);
+    box-shadow:0 3px 7px rgba(0,0,0,.2);
+    height:322.4px;
+    margin-top: 142px;
+    width: 420px;
+    display: inline-block;
+}
+#xcont{
+    text-align: center;
+    background: url(lsg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+}
+
+@media only screen and (max-width: 501px){
+    #xbdy,#xfg009,#xfg002{
+        zoom:90%;
+    }
+    
+}
